@@ -1,4 +1,42 @@
 /* style pour toutes les pages des documents */
 body{
     font-family:georgia, serif;
+    background-image: url("https://previews.123rf.com/images/irrrina/irrrina1406/irrrina140600168/29418362-vintage-white-wooden-wall-background.jpg");
+}
+
+h1
+{   font-size :50px;
+    border-color: black;
+    border-style: solid;
+    color:blue;
+    text-align: center;
+}
+
+h2
+{
+    font-size :40px;
+    color:red;
+
+}
+.metier
+{
+    color:rebeccapurple;
+    font-weight: bold;
+}
+
+.vert
+{
+    color:green;
+    text-transform:uppercase;
+    font-weight: bold;
+}
+
+h3
+{
+    font-size :10px;
+    color:red;
+}
+li
+{
+    letter-spacing: 1px;
 }
