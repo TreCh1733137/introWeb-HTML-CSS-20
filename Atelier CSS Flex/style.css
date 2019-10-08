@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* enlève toutes les marges et les espaces fait par le navigateur qui sont des valeurs par défaut*/
+body{margin: 0; padding: 0;}
+
+#main {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header{
+    width:100%;
+    order:1;
+    background-color: darkorange;
+
+}
+
+header:hover{
+    background-color: gray;
+
+}
+
+#A1{
+ background-color: yellow;
+    width:15%;
+    order:2;
+}
+
+#A2{
+ background-color: limegreen;
+   width: 15%;
+    order:4;
+}
+
+section{
+   background-color: mediumpurple;
+    width:70%;
+    order:3;
+
+
+
+
+}
+#mosaic{
+
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    height:500px;
+
+
+}
+
+footer{
+ width:100%;
+    background-color:crimson;
+    order:5;
+    display:flex;
+    align-items: center;
+    height:50px;
+    justify-content: center;
+}
