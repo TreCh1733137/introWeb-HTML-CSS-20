@@ -4,6 +4,7 @@
     font: 13px Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
+
 }
 h1{
     font-weight: bold;
@@ -23,6 +24,7 @@ label{
 
 div{
  display: flex;
+padding-bottom:5px;
 
 }
 
